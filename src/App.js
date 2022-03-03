@@ -39,6 +39,7 @@ class App extends PureComponent{
     console.log("Re-Rendering Called")
     return(
       <>
+      <h1>Hello World</h1>
         <User count={this.state.counter} />
         <button onClick={()=>this.setState({counter:this.state.counter + 1})}>Update Count</button>
       </>
